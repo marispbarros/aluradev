@@ -1,10 +1,10 @@
 header {
-   width: 100%;
-   height: 15vh;
-   display: grid;
-   align-items: center;
-   grid-template-columns: 1fr 3fr 1fr;
-   gap: 40px;
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 40px;
 }
 .container {
   width: 100%;
@@ -13,6 +13,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -20,14 +21,6 @@ header {
   max-width: 100%;
   width: 100%;
   height: auto;
-
-.logo {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   max-width: 100%;
-   width: 100%;
-   height: auto;
 }
 .logo__aluradev {
   width: 80%;
@@ -49,6 +42,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .profile_image {
   display: flex;
@@ -56,5 +50,7 @@ header {
   justify-content: center;
   width: 100%;
   height: auto;
+  border-radius: 100%;
+  height: 2.5em;
+  width: 2.5em;
 }
-
