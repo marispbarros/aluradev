@@ -6,6 +6,4 @@ body {
    flex-direction: column;
    width: 100vw;
    max-width: 100%;
-   box-sizing: border-box;
-   padding: 1.5em;
 }
