@@ -1,10 +1,11 @@
 header {
+  font-family: "Inter";
   width: 100%;
   height: 15vh;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 3fr 1fr;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .container {
   width: 100%;
@@ -13,10 +14,9 @@ header {
   display: flex;
   align-items: center;
 }
-
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   max-width: 100%;
   width: 100%;
@@ -36,13 +36,12 @@ header {
   justify-content: end;
   color: white;
   align-items: center;
-  gap: 0.1em;
+  gap: 0.5em;
 }
 .profile {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .profile_image {
   display: flex;
