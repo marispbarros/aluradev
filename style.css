@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/side_menu.css");
+@import url("styles/content.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 body {
   background-color: rgba(5, 29, 59, 1);
@@ -9,10 +11,12 @@ body {
   max-width: 100%;
   box-sizing: border-box;
   padding: 0 5%;
+  font-family: "Inter";
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   gap: 2.5rem;
+  box-sizing: border-box;
 }

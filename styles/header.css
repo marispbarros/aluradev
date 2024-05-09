@@ -27,6 +27,7 @@ header {
   height: auto;
 }
 .campo_pesquisa {
+  background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   padding: 1em 0.5em;
   border-radius: 0.5em;
